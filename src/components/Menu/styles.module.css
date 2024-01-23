@@ -1,0 +1,22 @@
+.container {
+    padding: 1.7rem 4rem;
+    width: 100%;
+    background: linear-gradient(180deg, var(--background) 40%, rgba(217, 217, 217, 0.00) 100%);
+    position: absolute;
+    z-index: 3;
+}
+
+.menuArea {
+    padding-bottom: 1rem;
+}
+
+.menuItem {
+    color: var(--primary-color);
+    font-size: 1.23rem;
+    margin: 0 0.6rem;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    color: var(--primary-color-hover);
+}

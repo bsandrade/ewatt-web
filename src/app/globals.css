@@ -8,6 +8,7 @@
   --background: #E0ECF8;
   --primary-color-strong: #182C5A;
   --primary-color: #243A6A;
+  --primary-color-hover: rgba(36, 56, 114, 0.60);
 }
 
 * {
