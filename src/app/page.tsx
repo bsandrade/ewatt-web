@@ -1,6 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import { Carousel, InfoPanel, Menu } from "@/components";
+import { Carousel, InfoPanel, Menu, TitleArea } from "@/components";
 export default function Home() {
 
   return (
@@ -10,6 +10,9 @@ export default function Home() {
         <Carousel />
       </div>
       <InfoPanel />
+      <div className={styles.contentArea} >
+        <TitleArea />
+      </div>
     </main>
   );
 }
