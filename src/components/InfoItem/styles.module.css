@@ -1,0 +1,33 @@
+.containerItem {
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid var(--background);
+    border-radius: 1rem; */
+    transition: 0.1s;
+}
+
+.containerItem:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+    color: var(--background);
+}
+
+.title {
+    color: var(--background);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
