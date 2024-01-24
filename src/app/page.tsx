@@ -1,6 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import { Carousel, InfoPanel, Menu, Section, SectionInverted, TitleArea } from "@/components";
+import { Carousel, InfoPanel, Menu, Partners, Section, SectionInverted, TitleArea } from "@/components";
 export default function Home() {
 
   return (
@@ -33,8 +33,8 @@ export default function Home() {
           description="Descrição beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza"
           type="Serviço"
         />
-
       </div>
+      <Partners />
     </main>
   );
 }

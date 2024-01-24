@@ -1,0 +1,38 @@
+.contentPartners {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary-color);
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.partnersArea {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.partner {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    max-height: 10rem;
+    background-color: aqua;
+    margin: 0.8rem;
+}
+
+.imagePartner {
+    position: relative;
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    max-height: 10rem;
+}

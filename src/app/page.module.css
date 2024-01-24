@@ -17,3 +17,9 @@
   padding: 0 10%;
   margin-top: -7.75rem;
 }
+
+@media screen and (max-width: 780px){
+  .contentArea {
+    padding: 0 5%;
+  }
+}
