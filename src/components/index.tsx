@@ -4,3 +4,4 @@ export * from './Menu';
 export * from './InfoPanel';
 export * from './InfoItem';
 export * from './TitleArea';
+export * from './Section';

@@ -1,7 +1,7 @@
 .containerTitle{
     width: 100%;
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
     align-items: center;
 }
 
@@ -15,4 +15,15 @@
 
 .description {
     color: var(--primary-color);
+}
+
+@media  screen and (max-width: 780px) {
+    .containerTitle{
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
 }
