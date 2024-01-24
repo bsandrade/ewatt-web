@@ -24,7 +24,6 @@
     position: relative;
     width: 10rem;
     height: 10rem;
-    max-height: 10rem;
     background-color: aqua;
     margin: 0.8rem;
 }
@@ -35,4 +34,34 @@
     max-width: 10rem;
     height: auto;
     max-height: 10rem;
+}
+
+@media  screen and (max-width: 780px) {
+    .partner {
+        position: relative;
+        width: 40vw;
+        height: 40vw;
+        margin: 0.8rem;
+    }
+    .imagePartner {
+        position: relative;
+        width: 100%;
+        max-width: 40vw;
+        height: auto;
+        max-height: 40vw;
+    }
+
+    .partnersArea {
+        padding: 0 5%;
+    }    
+}
+@media  screen and (max-width: 500px) {
+    .partner {
+        width: 60vw;
+        height: 60vw;
+    }
+    .imagePartner {
+        max-width: 60vw;
+        max-height: 60vw;
+    }
 }
