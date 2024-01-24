@@ -1,6 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import { Carousel, InfoPanel, Menu, Section, TitleArea } from "@/components";
+import { Carousel, InfoPanel, Menu, Section, SectionInverted, TitleArea } from "@/components";
 export default function Home() {
 
   return (
@@ -19,6 +19,21 @@ export default function Home() {
           description="Descrição beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza"
           type="Serviço"
         />
+        <SectionInverted
+          image="/asset1.jpg"
+          imageAlt="test"
+          title="Título"
+          description="Descrição beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza"
+          type="Serviço"
+        />
+        <Section
+          image="/asset1.jpg"
+          imageAlt="test"
+          title="Título"
+          description="Descrição beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza beleza"
+          type="Serviço"
+        />
+
       </div>
     </main>
   );
