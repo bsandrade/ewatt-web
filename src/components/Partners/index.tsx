@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const Partners = (): JSX.Element => {
     return (
-        <div className={styles.contentPartners}>
+        <div id="partners" className={styles.contentPartners}>
             <p className={styles.title}>PARCEIROS</p>
             <div className={styles.partnersArea}>
                 <div className={styles.partner}>
