@@ -8,6 +8,7 @@ type SectionProps = {
     type: string;
     title: string;
     description: string;
+    [key: string]: string;
 }
 
 export const Section = ({ 
@@ -15,10 +16,11 @@ export const Section = ({
     image,
     imageAlt,
     title,
-    type
+    type,
+    ...props
 }: SectionProps): JSX.Element => {
     return (
-        <div className={styles.containerSection}>
+        <div {...props} className={styles.containerSection}>
             <div className={styles.imageArea}>
                 <Image
                     className={styles.imageSection}

@@ -11,9 +11,10 @@ export default function Home() {
         <Carousel />
       </div>
       <InfoPanel />
-      <div id="title" className={styles.contentArea} >
+      <div className={styles.contentArea} >
         <TitleArea />
         <Section
+          id="services"
           image="/img1.jpg"
           imageAlt="by Lincoln Electric Systems, Lincoln Nebraska"
           title="Comércio de Energia Sustentável"
@@ -34,7 +35,7 @@ export default function Home() {
           type="A Plataforma"
           description="Com atendimento personalizado, a nWatt garante facilidade de entendimento e suporte dedicado, priorizando confiabilidade e segurança. Você vai promover a utilização de energia limpa, através da redução das emissões de gases de efeito estufa, bem com a diminuição da demanda por fontes poluentes e não renováveis. Deixa a sua marca no mundo!"
         />
-      <div className={styles.infoSection}>
+      <div id="ecosystem" className={styles.infoSection}>
         <Image
           className={styles.infoImage}
           src='/section.png'
