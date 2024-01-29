@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import styles from "./page.module.css";
 import { Carousel, Footer, InfoPanel, Menu, Partners, Section, SectionInverted, TitleArea } from "@/components";
 export default function Home() {
@@ -34,7 +35,25 @@ export default function Home() {
           description="Com atendimento personalizado, a nWatt garante facilidade de entendimento e suporte dedicado, priorizando confiabilidade e segurança. Você vai promover a utilização de energia limpa, através da redução das emissões de gases de efeito estufa, bem com a diminuição da demanda por fontes poluentes e não renováveis. Deixa a sua marca no mundo!"
         />
       </div>
+      <div className={styles.infoSection}>
+        <Image
+          className={styles.infoImage}
+          src='/section.png'
+          alt='Informacoes'
+          fill
+          style={{objectFit: 'scale-down'}}
+        />
+      </div>
       <Partners />
+      <div className={styles.logoArea}>
+        <Image
+          className={styles.logoImage}
+          src='/logo.png'
+          alt='Informacoes'
+          fill
+          style={{objectFit: 'scale-down'}}
+        />
+      </div>
       <Footer />
     </main>
   );

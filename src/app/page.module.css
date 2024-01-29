@@ -15,11 +15,40 @@
 .contentArea {
   width: 100%;
   padding: 0 10%;
-  margin-top: -7.75rem;
+  margin-top: -5rem;
+}
+
+.infoSection {
+  margin-top: 1rem;
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-bottom: 1rem;
+}
+
+.logoArea {
+  margin-top: 2rem;
+  position: relative;
+  width: 100vw;
+  height: 8vh;
+}
+
+.logoImage {
+
+}
+
+.infoImage {
 }
 
 @media screen and (max-width: 780px){
   .contentArea {
     padding: 0 5%;
   }
+}
+
+@media screen and (max-height: 800px){
+  .carousel {
+    width: 100vw;
+    height: 50vh;
+  }  
 }

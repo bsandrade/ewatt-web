@@ -12,7 +12,7 @@ export const CarouselImage = ({ src, alt }: CarouselImageProps): JSX.Element => 
             src={src}
             alt={alt}
             fill
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "scale-down" }}
         />
     )
 }

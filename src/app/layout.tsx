@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-        <title>eWatt</title>
+        <title>ηWatt</title>
       </head>
       <body className={roboto.className}>{children}</body>
     </html>

@@ -20,7 +20,7 @@ export const Partners = (): JSX.Element => {
                     Lojas São José
                 </div>
                 <div className={styles.partner}>
-                    Lojas D'Laine
+                    Lojas D&apos;Laine
                 </div>
                 <div className={styles.partner}>
                     Ativos Contabilidade

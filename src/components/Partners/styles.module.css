@@ -45,20 +45,6 @@
 }
 
 @media  screen and (max-width: 780px) {
-    .partner {
-        position: relative;
-        width: 40vw;
-        height: 40vw;
-        margin: 0.8rem;
-    }
-    .imagePartner {
-        position: relative;
-        width: 100%;
-        max-width: 40vw;
-        height: auto;
-        max-height: 40vw;
-    }
-
     .partnersArea {
         padding: 0 5%;
     }    
@@ -66,6 +52,7 @@
 @media  screen and (max-width: 500px) {
     .partner {
         width: 60vw;
+        text-align: center;
     }
     .imagePartner {
         max-width: 60vw;

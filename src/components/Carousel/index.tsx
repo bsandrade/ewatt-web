@@ -20,7 +20,7 @@ export const Carousel = (): JSX.Element => {
         slidesPerView={1}
         loop
         autoplay={{
-          delay: 5000,
+          delay: 6000,
           pauseOnMouseEnter: true,
         }}
         speed={500}
@@ -36,19 +36,13 @@ export const Carousel = (): JSX.Element => {
       >
         <SwiperSlide className={styles.swiperSlideMod}>
           <CarouselImage
-            src='/asset1.jpg'
+            src='/carousel/02.jpg'
             alt="image1"
           />
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlideMod}>
           <CarouselImage
-            src='/asset1.jpg'
-            alt="image1"
-          />
-        </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlideMod}>
-          <CarouselImage
-            src='/asset1.jpg'
+            src='/carousel/01.jpg'
             alt="image1"
           />
         </SwiperSlide>
