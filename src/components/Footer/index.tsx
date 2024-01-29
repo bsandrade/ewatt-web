@@ -16,7 +16,7 @@ export const Footer = (): JSX.Element => {
                 </div>
                 <div className={styles.footerSegment}>
                     <p className={styles.footerTitle}>Sobre nós</p>
-                    <p className={styles.footerDescription}>Uma empresa comprometida a tornar a sustentabilidade acesspivel a todos.</p>
+                    <p className={styles.footerDescription}>Uma empresa comprometida a tornar a sustentabilidade acessível a todos.</p>
                 </div>
             </div>
                 <p className={styles.footerNote}>© 2024 nSolutions. Todos os direitos reservados</p>

@@ -34,15 +34,14 @@ export default function Home() {
           type="A Plataforma"
           description="Com atendimento personalizado, a nWatt garante facilidade de entendimento e suporte dedicado, priorizando confiabilidade e segurança. Você vai promover a utilização de energia limpa, através da redução das emissões de gases de efeito estufa, bem com a diminuição da demanda por fontes poluentes e não renováveis. Deixa a sua marca no mundo!"
         />
-      </div>
       <div className={styles.infoSection}>
         <Image
           className={styles.infoImage}
           src='/section.png'
           alt='Informacoes'
           fill
-          style={{objectFit: 'scale-down'}}
         />
+      </div>
       </div>
       <Partners />
       <div className={styles.logoArea}>

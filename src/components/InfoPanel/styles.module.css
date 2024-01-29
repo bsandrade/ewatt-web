@@ -21,3 +21,19 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 720px){
+    .container {
+        width: 60%;
+        height: 25rem;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        width: 90%;
+    }
+}

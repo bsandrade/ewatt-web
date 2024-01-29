@@ -46,3 +46,13 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 720px){
+    .containerItem {
+        width: 100%;
+        max-width: 90%;
+    }
+    .description {
+        width: 100%;
+    }
+}
