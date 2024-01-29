@@ -8,76 +8,28 @@ export const Partners = (): JSX.Element => {
             <p className={styles.title}>PARCEIROS</p>
             <div className={styles.partnersArea}>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    BS Andrade
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Lojas Vesty
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Iury Transportes
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Lojas São José
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Lojas D'Laine
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Ativos Contabilidade
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Dias Rosa Coworking
                 </div>
                 <div className={styles.partner}>
-                    <Image
-                        className={styles.imagePartner}
-                        src='/asset1.jpg'
-                        alt='asset1'
-                        fill
-                        style={{ objectFit: "cover" }}
-                    />
+                    Washington T.I.
                 </div>
             </div>
         </div>

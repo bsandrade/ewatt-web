@@ -22,10 +22,18 @@
 
 .partner {
     position: relative;
-    width: 10rem;
-    height: 10rem;
-    background-color: aqua;
     margin: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    cursor: default;
+    transition: 0.1s;
+}
+
+.partner:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .imagePartner {
@@ -58,7 +66,6 @@
 @media  screen and (max-width: 500px) {
     .partner {
         width: 60vw;
-        height: 60vw;
     }
     .imagePartner {
         max-width: 60vw;
