@@ -29,7 +29,7 @@ export const Partners = (): JSX.Element => {
                     Dias Rosa Coworking
                 </div>
                 <div className={styles.partner}>
-                    Washington T.I.
+                    WA T.I.
                 </div>
             </div>
         </div>

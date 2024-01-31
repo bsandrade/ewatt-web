@@ -8,7 +8,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "nWatt Energy Ecommerce",
+  title: "ηWatt Energy Ecommerce",
   description: "A melhor forma de economizar com a energia",
 };
 
