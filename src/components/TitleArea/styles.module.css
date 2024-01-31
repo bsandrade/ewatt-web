@@ -6,7 +6,7 @@
 }
 
 .title {
-    color: var(--primary-color);
+    color: #243A6A;
     font-weight: 800;
     font-size: 2.3rem;
     max-width: 40%;
@@ -14,7 +14,7 @@
 }
 
 .description {
-    color: var(--primary-color);
+    color: #243A6A;
 }
 
 @media  screen and (max-width: 780px) {

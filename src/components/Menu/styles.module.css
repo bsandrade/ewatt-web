@@ -1,7 +1,7 @@
 .container {
     padding: 1.7rem 4rem;
     width: 100%;
-    background: linear-gradient(180deg, var(--background) 40%, rgba(217, 217, 217, 0.00) 100%);
+    background: linear-gradient(180deg, #E0ECF8 40%, rgba(217, 217, 217, 0.00) 100%);
     position: absolute;
     z-index: 3;
 }
@@ -11,14 +11,14 @@
 }
 
 .menuItem {
-    color: var(--primary-color);
+    color: #243A6A;
     font-size: 1.23rem;
     margin: 0 0.6rem;
 }
 
 .menuItem:hover {
     cursor: pointer;
-    color: var(--primary-color-hover);
+    color: rgba(36, 56, 114, 0.60);
 }
 
 @media screen and (max-width: 450px) {
