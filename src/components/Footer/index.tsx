@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 export const Footer = (): JSX.Element => {
     return (
         <div id="footer" className={styles.contentFooter}>
-            <p className={styles.title}>UMA PROPOSTA n SOLUTIONS</p>
+            <p className={styles.title}>UMA PROPOSTA ETA SOLUTIONS</p>
             <div className={styles.footerInfo}>
                 <div className={styles.footerSegment}>
                     <p className={styles.footerTitle}>Localização</p>
